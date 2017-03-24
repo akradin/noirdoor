@@ -1,0 +1,49 @@
+.header {
+  height: 160px;
+  background-color: #363636;
+  overflow: auto;
+}
+.header h1 {
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #f4dc67;
+  margin-top: 5%
+
+ }
+.logo {
+  float: left;
+  display: block;
+}
+
+.body {
+  background-color: #344247;
+  height: 100%;
+  overflow: auto;
+}
+
+.about {
+  width: 90%;
+  color: #f4dc67;
+  font-size: 25px;
+  text-align:center;
+  margin: 5% auto;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.go-to-artist {
+  color: #f4dc67;
+  text-align: center;
+  margin: 0 auto 20px;
+  display: block;
+  height: 45px;
+  background-color: transparent;
+  border-radius: none;
+  border: 1px solid #f4dc67;
+  transition: .5s;
+}
+
+.go-to-artist:hover {
+  color: black;
+  background-color: #f4dc67;
+}
